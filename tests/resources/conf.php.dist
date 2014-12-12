@@ -1,0 +1,9 @@
+<?php
+
+return [
+    'oAuthAccessToken' => "",
+    'oAuthAccessTokenSecret' => "",
+    'consumerKey' => "",
+    'consumerKeySecret' => "",
+    'receiverScreenName' => "",
+];
