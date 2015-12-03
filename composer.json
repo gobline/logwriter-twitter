@@ -1,6 +1,6 @@
 {
     "name": "gobline/logwriter-twitter",
-    "description": "Gobline Twitter Log Writer Component",
+    "description": "Twitter Log Writer component",
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -28,7 +28,7 @@
     "require": {
         "php": ">=5.6.0",
         "psr/log": "1.0.*@dev",
-        "gobline/logger": "~1.0",
+        "gobline/logger": "~2.0",
         "j7mbo/twitter-api-php": "dev-master"
     },
     "require-dev": {
@@ -38,7 +38,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "2.0.x-dev"
         }
     }
 }
