@@ -1,6 +1,6 @@
-# Twitter Log Writer Component - Mendo Framework
+# Twitter Log Writer component
 
-```Mendo\Logger\Writer\TwitterLogWriter``` tweets log information (as private [DM (direct messages)](https://support.twitter.com/articles/14606-posting-or-deleting-direct-messages)).
+```Gobline\Logger\Writer\TwitterLogWriter``` tweets log information (as private [DM (direct messages)](https://support.twitter.com/articles/14606-posting-or-deleting-direct-messages)).
 With the Twitter app installed, you have instant notifications on your mobile.
 [If your mobile carrier is supported](https://support.twitter.com/articles/20170024-twitter-s-supported-mobile-carriers), you can also activate SMS notfications.
 
@@ -11,7 +11,7 @@ With the Twitter app installed, you have instant notifications on your mobile.
 3. Generate consumer key, consumer secret, access token and access token secret (make sure you (re)generate **after** you have set the permissions).
 
 ```php
-$logger = new Mendo\Logger\Writer\TwitterLogWriter(
+$logger = new Gobline\Logger\Writer\TwitterLogWriter(
     $oAuthAccessToken, // your genenated access token
     $oAuthAccessTokenSecret, // your genenated access token secret
     $consumerKey, // your genenated consumer key
@@ -29,9 +29,9 @@ Note that
 
 ## Installation
 
-You can install Mendo Twitter Log Writer using the dependency management tool [Composer](https://getcomposer.org/).
+You can install the Twitter Log Writer using the dependency management tool [Composer](https://getcomposer.org/).
 Run the *require* command to resolve and download the dependencies:
 
 ```
-composer require mendoframework/logwriter-twitter
+composer require gobline/logwriter-twitter
 ```

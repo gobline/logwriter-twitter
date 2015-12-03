@@ -1,6 +1,6 @@
 {
-    "name": "mendoframework/logwriter-twitter",
-    "description": "Mendo Twitter Log Writer Component",
+    "name": "gobline/logwriter-twitter",
+    "description": "Gobline Twitter Log Writer Component",
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -9,14 +9,14 @@
         }
     ],
     "keywords": [
-        "mf", "mendoframework", "mendo framework",
+        "gobline",
         "logger", "logging", "log", "log writer",
         "twitter", "tweet"
     ],
-    "homepage": "https://github.com/mendoframework",
+    "homepage": "https://github.com/gobline",
     "autoload": {
         "psr-4": {
-            "Mendo\\Logger\\Writer\\": "src/"
+            "Gobline\\Logger\\Writer\\": "src/"
         }
     },
     "repositories": [
@@ -28,7 +28,7 @@
     "require": {
         "php": ">=5.5.0",
         "psr/log": "1.0.*@dev",
-        "mendoframework/logger": "~1.0",
+        "gobline/logger": "~1.0",
         "j7mbo/twitter-api-php": "dev-master"
     },
     "require-dev": {

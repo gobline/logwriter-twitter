@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Mendo Framework
+ * Gobline
  *
  * (c) Mathieu Decaffmeyer <mdecaffmeyer@gmail.com>
  *
@@ -10,7 +10,7 @@
  */
 
 use Pimple\Container;
-use Mendo\Logger\Writer\Provider\Pimple\TwitterLogWriterServiceProvider;
+use Gobline\Logger\Writer\Provider\Pimple\TwitterLogWriterServiceProvider;
 
 /**
  * @author Mathieu Decaffmeyer <mdecaffmeyer@gmail.com>
@@ -27,6 +27,6 @@ class ServiceProviderTest extends PHPUnit_Framework_TestCase
         $container['logwriter.twitter.consumerKeySecret'] = 'qux';
         $container['logwriter.twitter.receiverScreenName'] = 'corge';
         $container->register(new TwitterLogWriterServiceProvider());
-        $this->assertInstanceOf('Mendo\Logger\Writer\TwitterLogWriter', $container['logwriter.twitter']);
+        $this->assertInstanceOf('Gobline\Logger\Writer\TwitterLogWriter', $container['logwriter.twitter']);
     }
 }
